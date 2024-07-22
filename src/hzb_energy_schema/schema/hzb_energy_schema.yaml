@@ -1,0 +1,23 @@
+---
+id: https://w3id.org/anak-velazquez/HZB-energy-schema
+name: HZB-energy-schema
+title: HZB-energy-schema
+description: |-
+  (Meta)data schema HZB labs
+license: MIT
+see_also:
+  - https://anak-velazquez.github.io/HZB-energy-schema
+
+prefixes:
+  hzb_energy_schema: https://w3id.org/anak-velazquez/HZB-energy-schema/
+  linkml: https://w3id.org/linkml/
+  biolink: https://w3id.org/biolink/
+  schema: http://schema.org/
+  PATO: http://purl.obolibrary.org/obo/PATO_
+  example: https://example.org/
+default_prefix: hzb_energy_schema
+default_range: string
+
+imports:
+  - linkml:types
+
